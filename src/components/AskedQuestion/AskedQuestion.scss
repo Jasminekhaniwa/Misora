@@ -1,0 +1,23 @@
+.question-wrapper{
+    padding-top: 20px;
+    .question-heading{
+        text-align: center;
+
+    }
+    .question-inquiry{
+text-align: center;
+    }
+    .accordion-button:focus {
+        box-shadow: none;
+      
+        
+    }
+    .accordion-button{
+          border-top: 1px solid #dee2e6;
+        
+    }
+    .accordion-item{
+        margin-bottom: 10px;
+    }
+
+}

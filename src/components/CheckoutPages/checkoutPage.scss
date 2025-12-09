@@ -1,0 +1,182 @@
+.checkout-background{
+    background-color: #f0f0f0;
+    padding-top: 60px;
+    padding-bottom: 20px;
+
+    
+        .two-pages{
+        display: flex;
+        
+        
+        
+
+        
+    .form-page{
+        background-color: rgb(255, 255, 255);
+        padding: 20px 30px;
+        width: 50%;
+        // border-radius: 10px;
+        // position: relative;
+        
+        .heading{
+            font-size: 23px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        .subtitle{
+            font-size: 16px;
+            text-align: center;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgb(189, 189, 189);
+           
+        }
+        .lable{
+            text-transform:capitalize;
+            font-weight: 500;
+
+        }
+        .input-field{
+            border: 2px solid rgb(224, 224, 224);
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 5px 10px;
+            position: relative;
+            .error-message{
+                color: #b40918;
+                text-transform: capitalize;
+            }
+            .input-title{
+                text-transform:uppercase;
+                font-weight: 500;
+                font-size: small;
+                 span{
+                    color: #b40918;
+
+            }
+
+            }
+           
+            input{
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border: none;
+            
+                 &:focus-visible{
+                    outline: none;
+                
+            }
+            }
+            p{
+                color: #e92334;
+                font-style: italic;
+                font-size: smaller;
+                margin: 0%;
+                position: absolute;
+                right: 5px;
+                bottom: 3px;
+            } 
+
+            
+        }
+        .continue-shopping{
+            margin-top: 0px;
+            margin-left: auto;
+    display: flex;
+            // position: absolute;
+            // right: 1px;
+            
+        }
+    }
+
+ 
+
+
+
+    .right-page{
+       background-color: rgb(204, 242, 255);
+  padding: 20px 15px;
+        width: 50%;
+        
+        .heading{
+            background-color: #b40918;
+            color: #fcf7f7;
+            padding: 12px 17px;
+
+        }
+        .right-items{
+            display: flex;
+            padding: 30px 30px;
+            gap: 30px;
+            border-bottom: 1px solid rgb(202, 202, 202);
+           
+            
+            .image-container{
+                // min-height: 80px;
+                height: 100px;
+                min-width:100px ;
+                position: relative;
+                background-color: #ffffff;
+                border-radius: 10px;
+                border: 1px solid #ccc7c7;
+                
+                
+                
+                img{
+                    height: 100%;
+                    width: 100%;
+                    
+                    
+
+                    
+
+                }
+                .quantity{
+                background-color: #b40918;
+                color: #fcf7f7;
+                height: fit-content;
+                padding: 1px 7px;
+                border-radius: 50%;
+                position: absolute;
+                top: -10px;
+                right: -10px;
+                font-size: 13px;
+                width: fit-content;
+                
+            }
+            }
+            .right-two-items{
+                display: flex;
+                justify-content: space-between;
+                 width: 100%;
+                 font-size: 18px;
+               
+
+                .price{
+                color: #ee4444;
+            }
+            }
+            
+        }
+ .calculation{
+    padding: 10px;
+        display: flex;
+       text-transform: capitalize;
+       font-weight: 600;
+        justify-content: end;
+        gap: 100px;
+        .total{
+            text-transform: uppercase;
+            
+        }
+
+    }
+
+    }
+   
+    }
+    }
+    
+
+    

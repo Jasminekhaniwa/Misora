@@ -1,0 +1,49 @@
+.loader-container{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.singlepage-Background {
+  background-color: rgb(219, 219, 219);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  .page-wrapper {
+    background-color: rgb(255, 255, 255);
+      padding: 20px 20px;
+    
+
+    .image-container {
+          margin: 0 50px;
+      min-height: 50px;
+      background-color: rgb(241, 241, 241);
+      img{
+        height: 100%;
+        width: 100%;
+
+      }
+    
+    }
+    .right-container {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      .title {
+        font-size: 20px;
+      }
+      .rate {
+        font-weight: 600;
+        font-size: 20px;
+      }
+      .bold-text {
+        color: rgb(184, 39, 39);
+        font-weight: 600;
+        margin: 0%;
+        
+      }
+      .text {
+        color: rgb(184, 39, 39);
+      }
+      
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.footer-wrapper{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url("../../images/footer.jpg"); 
+    z-index: index -1;
+    
+    
+    .clip-path{
+        width:100%;
+        height:100%;
+        background-color: rgb(206, 149, 117);
+        
+        clip-path: polygon(31% 0, 44% 60%, 34% 109%, 0 100%, 0 0);
+        position: absolute;
+        left:0;
+        top: 0;
+        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+        z-index: index 1;
+        
+    }
+  .footer-content{
+    padding-top: 100px;
+    z-index: 2;
+    position: absolute;
+    .main-title{
+        color: rgb(99, 30, 30);
+        font-size: 35px;
+        text-transform: uppercase;
+
+    }
+    .title{
+        font-size: 25px;
+        text-transform: capitalize;
+        font-weight: 450;
+    }
+    .footer-text{
+        text-transform: capitalize;
+        font-weight: 400;
+        padding-left: 10px;
+        margin-bottom: 3%;
+        font-size: 15px;
+
+    }
+    .footer-icon{
+        display: flex;
+        gap:13px;
+    }
+  }  
+
+}

@@ -1,0 +1,53 @@
+.contact-background{
+    
+    .contact-wrapper{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        .lets-talk{
+            color: rgb(0, 0, 0);
+            text-transform: capitalize;
+            font-size: 40px;
+
+        }
+        .contact-paragraph{
+            margin-bottom: 0%;
+        }
+        .contact-form{
+            .contact-item{
+                margin-top: 30px;
+                .contact-lable{
+                text-transform: capitalize;
+                font-weight: 500;
+                .star{
+                    color: rgb(221, 98, 16);
+                    font-size: 20px;
+                    
+                }
+            }
+            .Form-inputbox{
+                background-color: rgb(207, 220, 230);
+                padding:  15px 10px;
+                width: 100%;
+                border-radius: 7px;
+                border: none;
+            }
+            }  
+        }
+.contact-details{
+    margin-top: 70px;
+    .details{
+        i{
+            color: rgb(52, 199, 243);
+        }
+        .imp-contact{
+            font-weight: 600;
+        }
+    }
+    .icons{
+   
+    color: rgb(45, 114, 218);
+    
+    }
+}
+    }
+}

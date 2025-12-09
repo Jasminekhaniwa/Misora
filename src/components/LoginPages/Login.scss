@@ -1,0 +1,45 @@
+ 
+.login-page-container{
+   background-color: rgb(25, 69, 121);
+    position: relative;
+    height: 100vh;
+
+ 
+ 
+
+    .form-wrapper{
+        border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    padding: 40px;
+    margin: 20px;
+    min-width: 400px;
+       position: absolute;
+    left: 50%;
+    top: 47%;
+    transform: translate(-50%, -50%);
+        
+        .form-content{
+            .title{
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .input{
+    width:-webkit-fill-available;
+}
+        }
+    
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+

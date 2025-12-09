@@ -1,0 +1,52 @@
+.popup-container{
+    position: relative;
+   .cross{
+    position: absolute;
+    right: -4px;
+    top: -13px;
+    padding: 10px;
+    font-size: 10px;
+    
+   }
+    
+.popup-wrapper{
+display: flex;
+ padding: 10px;
+    .image-container{
+        min-height: 200px;
+        width:40%;
+        img{
+            height: 100%;
+            width: 100%;
+
+        }
+    }
+    .right-content{
+        width: 60%;
+        .price{
+            font-weight: 600;
+        }
+
+        .button-wrapper{
+            display: flex;
+            gap: 4px;
+            margin-top: 40px;
+            .cart-b{
+                margin-top: 0%;
+            }
+            .continue-button{
+            border: 0cap;
+            border-radius: 3px;
+            
+            background-color: rgb(204, 204, 204);
+            text-transform: capitalize;
+            
+
+
+        }
+
+        }
+        
+    }
+    }
+}

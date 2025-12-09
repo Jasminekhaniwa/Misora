@@ -1,0 +1,35 @@
+.special-products{
+    padding-top: 20px;
+    .special-quote{
+        font-size: 40px;
+       color: rgb(122, 73, 40);
+       font-weight: 500;
+    }
+    .slick-arrow{
+        background-color:rgb(22, 63, 102) ;
+        border-radius: 10px;
+    }
+    .special-product-container{
+        padding: 10px;
+        .image-container{
+            height: 250px;
+            
+            .special-productimage{
+                width:100%;
+                height: 100%;
+                border-radius: 10px;
+            }
+        }
+        .coffee-details{
+         .coffee-name{
+            font-size: 29px;
+            color: rgb(122, 73, 40);
+            font-weight: 600;
+            margin-bottom: 0;
+            }
+                //  .coffee-details{
+
+                //  }
+        }
+    }
+}
